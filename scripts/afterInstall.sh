@@ -5,7 +5,8 @@ cd /home/ubuntu/source
 
 if [ $? -eq 0  ]
 then
-  gradle build -x test
+#  gradle build -x test
+  gradle bootJar
 
   if [ $? -eq 0  ]
   then
